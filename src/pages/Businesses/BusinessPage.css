@@ -1,0 +1,58 @@
+/* Business Page Styles */
+
+.business-page-container {
+  padding: 24px;
+}
+
+.business-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.business-table-wrapper {
+  overflow-x: auto;
+}
+
+.business-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.business-modal-form {
+  margin-top: 16px;
+}
+
+.user-assignment-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.user-assignment-form {
+  margin-bottom: 20px;
+}
+
+.user-assignment-form-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.user-assignment-form-row > div {
+  flex: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .business-actions {
+    flex-direction: column;
+  }
+
+  .user-assignment-form-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

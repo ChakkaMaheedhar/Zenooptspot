@@ -1,0 +1,98 @@
+.kiosk-container {
+  padding: 32px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.kiosk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.kiosk-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.kiosk-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.kiosk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.kiosk-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  border: none;
+  background: transparent;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 24px;
+}
+
+.kiosk-item:last-child {
+  border-bottom: none;
+}
+
+.kiosk-item:hover {
+  border-color: #d1d5db;
+}
+
+.kiosk-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.kiosk-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.kiosk-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.kiosk-actions button {
+  white-space: nowrap;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 16px;
+}
+
+.kiosk-actions button:not(.ant-btn-primary) {
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: #1f2937;
+}
+
+.kiosk-actions button:not(.ant-btn-primary):hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ant-modal-title {
+  font-weight: 600;
+}

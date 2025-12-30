@@ -1,0 +1,61 @@
+.all-coupons-container {
+  padding: 32px;
+  background-color: #f5f5f5;
+}
+
+.all-coupons-header {
+  margin-bottom: 24px;
+}
+
+.all-coupons-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+
+.all-coupons-header p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.all-coupons-section {
+  background-color: white;
+  padding: 24px;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+}
+
+.all-coupons-controls {
+  margin-bottom: 20px;
+}
+
+.all-coupons-controls h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 12px 0;
+}
+
+.all-coupons-table {
+  width: 100%;
+}
+
+.all-coupons-table :where(.ant-table) {
+  font-size: 14px;
+}
+
+.all-coupons-table :where(.ant-table-thead > tr > th) {
+  background-color: #fafafa;
+  font-weight: 600;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.all-coupons-table :where(.ant-table-tbody > tr) {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.all-coupons-table :where(.ant-table-tbody > tr:hover > td) {
+  background-color: transparent;
+}

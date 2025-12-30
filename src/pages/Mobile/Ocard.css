@@ -1,0 +1,108 @@
+.ocard-container {
+  padding: 32px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.ocard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.ocard-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.ocard-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.ocard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.ocard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  border: none;
+  background: transparent;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 24px;
+}
+
+.ocard-item:last-child {
+  border-bottom: none;
+}
+
+.ocard-item:hover {
+  border-color: #d1d5db;
+  box-shadow: none;
+}
+
+.ocard-info {
+  flex: 1;
+}
+
+.ocard-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.ocard-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.ocard-actions {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.ocard-actions button {
+  white-space: nowrap;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 16px;
+}
+
+.ocard-actions button:not(.ant-btn-primary) {
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: #1f2937;
+}
+
+.ocard-actions button:not(.ant-btn-primary):hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ant-modal-title {
+  font-weight: 600;
+}
+
+  .ocard-page-container .ant-table-wrapper {
+    font-size: 12px;
+  }
+}

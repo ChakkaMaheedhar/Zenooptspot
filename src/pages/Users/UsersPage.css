@@ -1,0 +1,19 @@
+/* Users Page Styles */
+
+.users-page-container {
+  padding: 24px;
+}
+
+.users-table-wrapper {
+  overflow-x: auto;
+}
+
+.users-modal-form {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .users-page-container {
+    padding: 12px;
+  }
+}

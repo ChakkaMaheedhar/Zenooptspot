@@ -1,0 +1,118 @@
+/* Sidebar Menu Custom Styling */
+.ant-menu-dark {
+  background: #00523f !important;
+  border-radius: 0 !important;
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: rgba(255, 255, 255, 0.8) !important;
+  height: 40px !important;
+  margin: 4px 0 !important;
+  border-radius: 8px !important;
+  padding: 0 12px !important;
+  transition: all 0.2s ease !important;
+  line-height: 40px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  color: #ffc42a !important;
+  background-color: rgba(255, 196, 42, 0.15) !important;
+  transform: translateX(4px) !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #ffc42a !important;
+  color: #00523f !important;
+  font-weight: 600 !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-title {
+  color: rgba(255, 255, 255, 0.8) !important;
+  height: 40px !important;
+  margin: 4px 0 !important;
+  border-radius: 8px !important;
+  padding: 0 12px !important;
+  transition: all 0.2s ease !important;
+  line-height: 40px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  color: #ffc42a !important;
+  background-color: rgba(255, 196, 42, 0.15) !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-open > .ant-menu-submenu-title {
+  color: #ffc42a !important;
+  background-color: rgba(255, 196, 42, 0.15) !important;
+}
+
+/* Submenu items (children) styling */
+.ant-menu-dark .ant-menu-item-group-title {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu {
+  background: transparent !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  padding: 4px 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu .ant-menu-item {
+  color: rgba(255, 255, 255, 0.7) !important;
+  height: 36px !important;
+  margin: 2px 0 !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+  padding: 0 12px 0 36px !important;
+  line-height: 36px !important;
+  font-weight: 400 !important;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu .ant-menu-item:hover {
+  color: #ffc42a !important;
+  background-color: rgba(255, 196, 42, 0.1) !important;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu .ant-menu-item-selected {
+  background-color: rgba(255, 196, 42, 0.2) !important;
+  color: #ffc42a !important;
+  font-weight: 500 !important;
+}
+
+/* Icon styling */
+.ant-menu-dark .anticon {
+  color: inherit !important;
+  margin-right: 10px !important;
+  font-size: 16px !important;
+}
+
+/* Overall menu styling */
+.ant-menu {
+  line-height: 40px !important;
+}
+
+/* Prevent overflow when submenus expand */
+.ant-menu-submenu {
+  overflow: visible !important;
+}
+
+/* Hide sidebar scrollbar but keep scrolling */
+.ant-layout-sider ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.ant-layout-sider {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
+}
